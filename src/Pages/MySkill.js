@@ -76,7 +76,6 @@ const MySkill = () => {
                                                     <img src="https://assets.codepen.io/1462889/grass.png" alt="" />
                                                 </div>
                                                 <div class="img-wrap img-7">
-                                                    {/* <img src="https://assets.codepen.io/1462889/IvyRock.png" alt="" /> */}
                                                     
                                                 </div>
                                             </div>

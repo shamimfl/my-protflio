@@ -6,6 +6,7 @@ import AboutMe from './Pages/AboutMe';
 import Skills from './Pages/Skills';
 import MySkill from './Pages/MySkill';
 import MyProject from './Pages/MyProject';
+import Contact from './Pages/Contact';
 const App = () => {
   return (
     <div className='bg-slate-700'>
@@ -15,6 +16,7 @@ const App = () => {
       <Skills></Skills>
       <MySkill></MySkill>
       <MyProject></MyProject>
+      <Contact></Contact>
     </div>
   );
 };
