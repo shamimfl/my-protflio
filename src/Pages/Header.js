@@ -18,11 +18,11 @@ const Header = () => {
                 </div>
             </div>
             <ul className={`md:flex justify-end absolute p-5 md:static bg-slate-700 w-full duration-500 ease-in ${open ? 'top-20': 'top-[-520px]'}`}>
-                <a href='#home' className='md:mr-10 font-bold text-white focus:text-red-500'>Home</a>
-                <a href='#about' className='md:mr-10 font-bold text-white focus:text-red-500'>About</a>
-                <a href='#contact' className='md:mr-10 font-bold text-white focus:text-red-500'>Contact</a>
-                <a href='#service' className='md:mr-10 font-bold text-white focus:text-red-500'>Service</a>
-                <a href='#project' className='md:mr-10 font-bold text-white focus:text-red-500'>Project</a>
+                <a href='#home' className='md:mr-10 font-bold block text-white focus:text-red-500'>Home</a>
+                <a href='#about' className='md:mr-10 font-bold block text-white focus:text-red-500'>About</a>
+                <a href='#contact' className='md:mr-10 font-bold block text-white focus:text-red-500'>Contact</a>
+                <a href='#service' className='md:mr-10 font-bold block text-white focus:text-red-500'>Service</a>
+                <a href='#project' className='md:mr-10 font-bold block text-white focus:text-red-500'>Project</a>
             </ul>
         </div>
     );
