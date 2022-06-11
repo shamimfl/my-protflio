@@ -3,7 +3,7 @@ import Skil from './Skil';
 
 const Skills = () => {
     return (
-        <div className='p-2'>
+        <div id='service' className='p-2'>
             <h1 className='text-center text-xl font-bold mt-20 text-slate-300'>What i Do ?</h1>
             <h1 className='text-center font-semibold underline uppercase text mb-10'>Service</h1>
             <section className='grid md:grid-cols-2 lg:grid-cols-3 gap-20'>

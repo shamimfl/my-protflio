@@ -12,8 +12,8 @@ const App = () => {
     <div className='bg-slate-700'>
       <Header></Header>
       <Banner></Banner>
-      <AboutMe></AboutMe>
-      <Skills></Skills>
+      <AboutMe id='about'></AboutMe>
+      <Skills id='service'></Skills>
       <MySkill></MySkill>
       <MyProject></MyProject>
       <Contact></Contact>

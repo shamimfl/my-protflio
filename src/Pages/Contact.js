@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section className='p-10 lg:flex justify-around items-center'>
+        <section id='contact' className='p-10 lg:flex justify-around items-center'>
             <div>
                 <img src="https://i.ibb.co/Tmj9sbd/705-7055276-creative-web-design-web-design-vector-png-transparent-removebg-preview.png" alt="705-7055276-creative-web-design-web-design-vector-png-transparent-removebg-preview" border="0" />
             </div>

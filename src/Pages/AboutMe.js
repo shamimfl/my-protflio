@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <div  className='lg:flex justify-between p-5'>
+        <div id='about' className='lg:flex justify-between p-5'>
             <div className='lg:w-2/4 font-semibold mt-20 text-white bg-slate-700 p-5 rounded-lg'>
                 <h1 className='text-2xl font-bold mb-5 text-slate-300'>About Me </h1>
                 <p className='text-slate-300'>Hello I'm Shamim  . i am  MERN stack developer And i can build website as you want. I can build website single page web Application now i am available to work.</p>
