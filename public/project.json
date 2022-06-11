@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Dream Shop",
+        "type": "Ecomarce",
+        "live": "https://dream-shop-dinjpur.web.app/",
+        "git-s": "https://github.com/shamimfl/Dream-Shop-sarver",
+        "git-c": "https://github.com/shamimfl/dream-Shop-client",
+        "img": "https://i.ibb.co/n1MCSdz/dreamshop.png",
+        "id": 1,
+        "desc": "●Dynamic rating and review system.● Error page & Authentication System with Firebase.Nested route. ● Dynamic add product. ● order manage. ● Responsive MERN Stack app"
+    },
+    {
+        "name": "Unique Tools",
+        "type": "Manufacture",
+        "live": "https://unique-tools-shamim.web.app/",
+        "git-s": "https://github.com/shamimfl/Dream-Shop-sarver",
+        "git-c": "https://github.com/shamimfl/dream-Shop-client",
+        "img": "https://i.ibb.co/nkMTpLT/unick-tool.png",
+        "id": 2,
+        "desc": "● Authentication System with Firebase. ● Admin route and Nested route with making new admin by email Implement Admin Management Page. ● Payment gateway by stripe"
+    },
+    {
+        "name": "Were-House",
+        "type": "were-house-management",
+        "live": "https://were-house.web.app/",
+        "gits": "https://github.com/shamimfl/were-house-sarver-",
+        "gitc": "https://github.com/shamimfl/were-house-client",
+        "img": "https://i.ibb.co/yy7crKZ/werehouse.png",
+        "id": 3,
+        "desc": "● Authentication System with Firebase. ● when the user logs in, you will see different route. ● User can add products. And delete product"
+    }
+]

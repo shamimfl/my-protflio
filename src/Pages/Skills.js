@@ -1,95 +1,56 @@
 import React from 'react';
+import Skil from './Skil';
 
 const Skills = () => {
     return (
-        <div className='mt-5 p-5'>
-            <h1 className='text-3xl text text-center font-bold mb-10'>MY SKILLS</h1>
-
-        <h1 className='text text-xl font-bold mb-4'>For Forntent Development</h1>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10'>
-      <div className=''>
-                <div className='bg-slate-700 p-5 rounded-lg'>
-                    <div className='flex justify-between'>
-                        <div className=' text w-28 p-1 rounded-2xl text-center font-bold'>HTML</div>
-                        <div className='bg text-white w-28 p-1 rounded-2xl text-center'>90%</div>
-                    </div>
-                    <div className='flex mt-3 '>
-                        <div className='h-2 bg   tooltip tooltip-openbg rounded-l-lg w-[90%]' data-tip="90%" ></div>
-                        <div className='h-2  bg-white rounded-r-lg w-[10%]'></div>
-                    </div>
+        <div className='p-2'>
+            <h1 className='text-center text-xl font-bold mt-20 text-slate-300'>What i Do ?</h1>
+            <h1 className='text-center font-semibold underline uppercase text mb-10'>Service</h1>
+            <section className='grid md:grid-cols-2 lg:grid-cols-3 gap-20'>
+                <div className='p-5 bg-slate-700 rounded-md Shadow'>
+                    <span className='flex items-center justify-between'>
+                        <img className='h-24 w-24' src="https://www.hexamarvel.com/wp-content/themes/hexamarvel/assets/images/services-common/technology/redis.svg" alt="" />
+                        <h2 className='text-slate-300 font-semibold'>MERN Stack Development</h2>
+                    </span>
+                    <p className='text-slate-300 mt-3 font-semibold'>I have enough skill about MongoDB, React, Express,  Node. I can make your website to your needs</p>
                 </div>
-            </div>
-
-
-            <div className=''>
-            <div className='bg-slate-700 p-5 rounded-lg'>
-                    <div className='flex justify-between'>
-                        <div className=' text w-28 p-1 rounded-2xl text-center font-bold'>CSS</div>
-                        <div className='bg text-white w-28 p-1 rounded-2xl text-center'>75%</div>
-                    </div>
-                    <div className='flex mt-3 '>
-                        <div className='h-2 bg   rounded-l-lg w-[75%]' ></div>
-                        <div className='h-2  bg-white rounded-r-lg w-[25%]'></div>
-                    </div>
+                <div className='p-5 bg-slate-700 rounded-md Shadow'>
+                    <span className='flex items-center justify-between'>
+                        <img className='h-24 w-24' src="https://symphony-solutions.com/wp-content/uploads/sites/5/2019/07/backend-development-icon.svg" alt="" />
+                        <h2 className='text-slate-300 font-semibold'>Backend Development</h2>
+                    </span>
+                    <p className='text-slate-300 mt-3 font-semibold'>I am comfortable to Backend Development.i use to Backend development. Node js, Mongodb, Express</p>
                 </div>
-            </div>
-
-
-            <div className='mt-5'>
-            <div className='bg-slate-700 p-5 rounded-lg'>
-                    <div className='flex justify-between'>
-                        <div className=' text w-28 p-1 rounded-2xl text-center font-bold'>Tailwind</div>
-                        <div className='bg text-white w-28 p-1 rounded-2xl text-center'>90%</div>
-                    </div>
-                    <div className='flex mt-3'>
-                        <div className='h-2 bg   rounded-l-lg w-[90%]' ></div>
-                        <div className='h-2  bg-white rounded-r-lg w-[10%]'></div>
-                    </div>
+                <div className='p-5 bg-slate-700 rounded-md Shadow'>
+                    <span className='flex items-center justify-between'>
+                        <img className='h-24 w-24' src="https://miro.medium.com/max/1084/1*1-VpQLVKsDSoAnh0_gjihg.png" alt="" />
+                        <h2 className='text-slate-300 font-semibold'>Backend Development</h2>
+                    </span>
+                    <p className='text-slate-300 font-semibold mt-3'>I am comfortable to Frontend Development.i use to Frontnd development. HTMl, CSS, Tailwind, Bootstrap, React, Javascript</p>
                 </div>
-            </div>
-
-
-            <div className='mt-5'>
-            <div className='bg-slate-700 p-5 rounded-lg'>
-                    <div className='flex justify-between'>
-                        <div className='text w-28 p-1 rounded-2xl text-center font-bold'>Bootstrap</div>
-                        <div className='bg text-white w-28 p-1 rounded-2xl text-center'>80%</div>
-                    </div>
-                    <div className='flex mt-3'>
-                        <div className='h-2 bg   rounded-l-lg w-[80%]' ></div>
-                        <div className='h-2  bg-white rounded-r-lg w-[20%]'></div>
-                    </div>
+                <div className='p-5 bg-slate-700 rounded-md Shadow'>
+                    <span className='flex items-center justify-between'>
+                        <img className='h-24 w-24' src="https://images.vexels.com/media/users/3/131493/isolated/lists/78bc6071bf1a8a024005fa25fd844189-molecule-icon.png" alt="" />
+                        <h2 className='text-slate-300 font-semibold'>Backend Development</h2>
+                    </span>
+                    <p className='text-slate-300 font-semibold  mt-3'>I am comfortable to React Development.</p>
                 </div>
-            </div>
-
-            <div className='mt-5'>
-            <div className='bg-slate-700 p-5 rounded-lg'>
-                    <div className='flex justify-between'>
-                        <div className=' text w-28 p-1 rounded-2xl text-center font-bold'>JavaScript</div>
-                        <div className='bg text-white w-28 p-1 rounded-2xl text-center'>60%</div>
-                    </div>
-                    <div className='flex mt-3'>
-                        <div className='h-2 bg   rounded-l-lg w-[60%]' ></div>
-                        <div className='h-2  bg-white rounded-r-lg w-[40%]'></div>
-                    </div>
-                </div >
-            </div>
-
-            <div className='mt-5'>
-            <div className='bg-slate-700 p-5 rounded-lg'>
-                    <div className='flex justify-between'>
-                        <div className=' text w-28 p-1 rounded-2xl text-center font-bold'>React</div>
-                        <div className='bg text-white w-28 p-1 rounded-2xl text-center'>60%</div>
-                    </div>
-                    <div className='flex mt-3'>
-                        <div className='h-2 bg   rounded-l-lg w-[60%]' ></div>
-                        <div className='h-2  bg-white rounded-r-lg w-[40%]'></div>
-                    </div>
-                </div >
-            </div>
-
-      </div>
-
+                <div className='p-5 bg-slate-700 rounded-md Shadow'>
+                    <span className='flex items-center justify-between'>
+                        <img className='h-24 w-24' src="https://icon-library.com/images/javascript-icon/javascript-icon-17.jpg" alt="" />
+                        <h2 className='text-slate-300 font-semibold'>JavaScript Development</h2>
+                    </span>
+                    <p className='text-slate-300 font-semibold mt-3'>I am comfortable to JavaScript Development. I can problem Solving with javascript.</p>
+                </div>
+                <div className='p-5 bg-slate-700 rounded-md Shadow'>
+                    <span className='flex items-center justify-between text-end'>
+                        <img className='h-24 w-24' src="https://iconsplace.com/wp-content/uploads/_icons/ff0000/256/png/android-2-icon-14-256.png" alt="" />
+                        <h2 className='text-slate-300 font-semibold'>React Native  Development</h2>
+                    </span>
+                    <p className='text-slate-300  mt-3 font-semibold'>I am Familiar to React Native DevelopMent.</p>
+                </div>
+            </section>
+            <Skil></Skil>
         </div>
     );
 };
